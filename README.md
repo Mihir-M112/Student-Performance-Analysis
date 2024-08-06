@@ -6,3 +6,6 @@
 ![image](https://github.com/user-attachments/assets/458c1014-b854-422f-80a9-aa35a73526d7)
 
 
+`uvicorn app.main:app --reload`
+
+
