@@ -11,5 +11,6 @@ uvicorn
 joblib
 jinja2
 python-multipart
+streamlit
 
 # -e . 
