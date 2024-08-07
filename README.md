@@ -16,12 +16,12 @@ This Project is End to End ML based on Student Exam Performance Analysis. It pre
  
 ## **Approach for the project**
 
--** Data Ingestion** :
+- **Data Ingestion** :
 
 In Data Ingestion phase the data is read as csv.
 Then the data is split into training and testing and saved as csv file.
 
--** Data Transformation** :
+- **Data Transformation** :
 
 In this phase a ColumnTransformer Pipeline is created.
 for Numeric Variables first SimpleImputer is applied with strategy median , then Standard Scaling is performed on numeric data.
