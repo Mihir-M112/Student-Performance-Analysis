@@ -37,19 +37,19 @@ The model is selected on based on R2 Score Evaluation Metric. The highest R2 Sco
 
 This pipeline converts given data into dataframe and has various functions to load pickle files and predict the final results in python.
 
-- **Fast API Creation**:
-  The entire project is shown by using FAST API for Web Work.
+- **Web Work**:
+  The entire project is shown by using HTML, CSS & FAST API for Web Work.
 
 ### How to use this project? 
 
 1. Download the whole project in you system or you can also clone it.
-2. Make a virtual environment uisng teh command:
+2. Make a virtual environment uisng the command:  
     `python -m venv venv`
-3. Activate the virtual environments:
+3. Activate the virtual environments:  
     `.\venv\Scripts\activate`
-4. Run the requirements.txt file in venv:
+4. Run the requirements.txt file in venv:  
     `pip install -r requirements.txt`
-5. Run the below command: 
+5. Run the below command:   
     `uvicorn app.main:app --reload`
    
 
